@@ -1,0 +1,30 @@
+<!-- Data-List is used to create suggestive/related word on writing any latter , 
+          like if we type 'a' in google it shows us multipe things below like amazon amul etc -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form>
+
+
+        <!-- Datalist :- id( its basically list of the saved options ) 
+                          And we need to connect it in list above , so it can search on tap -->
+        Search <input type="text" list="fruit">
+        <datalist id="fruit">
+            <option value="Apple">
+            <option value="Orange">
+            <option value="Grapes">
+            
+        </datalist>
+        <input type="submit" value="Search">
+
+    </form>
+</body>
+</html>
