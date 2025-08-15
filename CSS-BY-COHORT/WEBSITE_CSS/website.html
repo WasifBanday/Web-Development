@@ -18,7 +18,7 @@
             background-color: #1f2937;
             justify-content: space-around;
             align-items: center;
-            padding: 20px 30px;  /* upar se 10px sides se 20px */
+            padding: 20px 30px;  /* upar se 10px sides se 20px each button */
             color: #ffffff;
             font-size: small;
         }
@@ -40,13 +40,52 @@
         }
         .hero {
             display: flex;
-            background-color: #10171f;
+            justify-content: end;
+            background-color: #151e29;
             align-items: center;
+            color: #ffffff;
+
         }
         .hero div {
             margin: 20px;
-            color: #ffffff;
-        }        
+            width: 50%; 
+        }   
+        .hero div h1 {
+            display: flex;
+            justify-content:space-around;
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            
+
+        }
+        .hero div p {
+            font-size: 1.2rem;
+            color: #acaeb1;
+            margin-bottom:  1rem;      
+        }
+        .hero div button{
+            padding: 8px 16px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            width: 200px;
+
+        }
+        .hero div button:hover {
+            background-color: rgb(134, 123, 123);
+            color: white;
+        }
+        .hero div img {
+            width: 100%;
+            cursor: zoom-in;   
+            border-radius: 20px;
+            object-fit: cover;   
+            box-shadow: 0 0 10px white;
+        }
+        .hero div img:hover {
+            transform: rotate(5deg);
+            transition: all 0.5s ease-in-out;
+        }
 
     </style>
 
@@ -87,7 +126,7 @@
 
             </div>
 
-            <div> <img width="300px" src="https://images.pexels.com/photos/18681382/pexels-photo-18681382.jpeg" alt="">
+            <div> <img src="https://images.pexels.com/photos/18681382/pexels-photo-18681382.jpeg" alt="">
             </div>
         </section>
 
