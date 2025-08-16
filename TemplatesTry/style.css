@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    color: rgb(34, 30, 30);
+    padding: 35px;
+    border-bottom: 1px solid black;
+}
+
+nav div ul {
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+nav div ul li:hover {
+    color: rgb(79, 79, 230);
+}
+
+nav div ul button {
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(to right, royalblue, rgb(58, 150, 220));
+    border-radius: 40px;
+    color: aliceblue;
+}
+
+h3 {
+    display: flex;
+    justify-content: start;
+    font-size: x-large;
+    color: royalblue;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.hero div {
+    margin: 20px 100px;
+}
+
+.hero div button {
+    margin-top: 20px;
+    padding: 14px 3.7rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 100px;
+    /* background-color: rgb(79, 79, 230); */
+    background: linear-gradient(to right, royalblue, rgb(58, 150, 220));
+    color: aliceblue;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.2rem;
+}
+
+p {
+    font-size: medium;
+}
+
+.about div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.okk {
+    width: 30%;
+    margin: 20px auto;
+    font-size: 19.8px;
+}
+
+.clr {
+    color: royalblue;
+}
+
+.three-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    padding: 10rem 13rem;
+}
+
+.card1 {
+    border: 2px;
+    padding: 10px 50px;
+    border-radius: 10px;
+    margin: 0px 5px;
+    border-top-right-radius: 80px;
+    background-color: rgb(232, 220, 220);
+}
+
+.card2 {
+    border: 2px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin: 0px 5px;
+    border-top-right-radius: 80px;
+    background-color: rgb(232, 220, 220);
+}
+
+.card3 {
+    border: 2px;
+    padding: 9px 30px;
+    border-radius: 10px;
+    margin: 0px 5px;
+    background-color: rgb(232, 220, 220);
+    border-top-right-radius: 60px;
+}
+
+.card4 {
+    border: 2px;
+    padding: 22px 27px;
+    border-radius: 10px;
+    margin: 0px 5px;
+    background-color: rgb(232, 220, 220);
+    border-top-right-radius: 80px;
+}
+
+.three-cards i {
+    font-size: 4rem;
+}
+
+.card1:hover {
+    color: aliceblue;
+    transition-duration: .5s;
+    background: linear-gradient(to right, royalblue, rgb(58, 150, 220));
+}
+
+.card2:hover {
+    color: aliceblue;
+    transition-duration: .5s;
+    background: linear-gradient(to right, royalblue, rgb(58, 150, 220));
+}
+
+.card3:hover {
+    color: aliceblue;
+    transition-duration: .5s;
+    background: linear-gradient(to right, royalblue, rgb(58, 150, 220));
+}
+
+.card4:hover {
+    color: aliceblue;
+    transition-duration: .5s;
+    background: linear-gradient(to right, royalblue, rgb(58, 150, 220));
+}
+
+.hvr:hover {
+    cursor: pointer;
+    transform: translateX(10px);
+    transition: all 0.5s ease-in-out;
+}
+
+.three-cards span:hover {
+    transform: translateX(10px);
+    transition: all 0.5s ease-in-out;
+}
