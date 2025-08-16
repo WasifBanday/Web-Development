@@ -5,12 +5,17 @@
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: start;
     align-items: center;
     background-color: white;
     color: rgb(34, 30, 30);
     padding: 35px;
     border-bottom: 1px solid black;
+    gap: 650px;
+}
+
+nav div img {
+    margin-left: 5rem;
 }
 
 nav div ul {
@@ -196,4 +201,70 @@ p {
 
 .pdd div {
     padding-top: 1.5rem;
+}
+
+.sprt {
+    margin-top: 1rem;
+}
+
+.sprt ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sprt ul li {
+    padding: 1rem 2rem;
+    border-radius: 7rem;
+    font-size: 1.5rem;
+    list-style-type: none;
+    background-color: rgb(232, 220, 220);
+}
+
+.sprt ul li:hover {
+    color: royalblue;
+    cursor: pointer;
+}
+
+.please {
+    margin-top: 1rem;
+    color: gray;
+}
+
+.herooo button {
+    padding: 15px 35px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(to right, royalblue, rgb(58, 150, 220));
+    color: white;
+}
+
+.herooo button:hover {
+    cursor: pointer;
+}
+
+.herooo p {
+    color: gray;
+}
+
+.hii {
+    display: flex;
+    justify-content: center;
+}
+
+.hii p {
+    font-size: 2rem;
+}
+
+.hii span {
+    color: royalblue;
+}
+
+.hel {
+    padding: 0 30rem;
+    color: gray;
+}
+
+.dv {
+    padding: 0 38.5rem;
+    color: gray;
 }
