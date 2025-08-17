@@ -108,6 +108,7 @@ p {
     margin: 0px 5px;
     border-top-right-radius: 80px;
     background-color: rgb(232, 220, 220);
+    /* box-shadow: 10px 10px 5px 6px whitesmoke; */
 }
 
 .card2 {
@@ -117,6 +118,7 @@ p {
     margin: 0px 5px;
     border-top-right-radius: 80px;
     background-color: rgb(232, 220, 220);
+    /* box-shadow: 10px 10px 5px 6px whitesmoke; */
 }
 
 .card3 {
@@ -126,6 +128,7 @@ p {
     margin: 0px 5px;
     background-color: rgb(232, 220, 220);
     border-top-right-radius: 60px;
+    /* box-shadow: 10px 10px 5px 6px whitesmoke; */
 }
 
 .card4 {
@@ -135,6 +138,7 @@ p {
     margin: 0px 5px;
     background-color: rgb(232, 220, 220);
     border-top-right-radius: 80px;
+    /* box-shadow: 10px 10px 5px 6px whitesmoke; */
 }
 
 .three-cards i {
